@@ -15,13 +15,31 @@ export const projects = [
     category: "AI • Health • Product",
     filterCategory: "AI",
     description: "An AI-powered health guidance platform designed to help users better understand, organize, and correlate their personal health data into clear, doctor-ready insights.",
-    thumbnail: "/images/qure-d.jpg",
+    thumbnail: "/images/qure-d-mobile.jpg",
+    qrCode: "/images/qure-d-qr.png",
+    gallery: [
+      {
+        title: "Mobile App Interface",
+        url: "/images/qure-d-mobile.jpg",
+        caption: "Live mobile app view with full symptom checker, medication tracking, and AI health navigation"
+      },
+      {
+        title: "Scan to Open on Mobile",
+        url: "/images/qure-d-qr.png",
+        caption: "Scan QR code with your phone camera to launch qure-d.base44.app"
+      },
+      {
+        title: "Aavishkar Research Poster",
+        url: "/images/qure-d-poster.jpg",
+        caption: "Aavishkar 2025–26 research convention presentation — Medicine & Pharmacy category"
+      }
+    ],
     featured: true,
     year: "2025",
     metrics: "100+ Users",
     achievement: "District/University-Level Winner → State-Level Finalist — Aavishkar 2025–26",
     technologies: ["React.js", "JavaScript", "Python", "Tailwind CSS"],
-    liveUrl: "", // When empty, Live Demo button is safely omitted
+    liveUrl: "https://qure-d.base44.app",
     githubUrl: "https://github.com/riddhi-ai",
     caseStudy: {
       overview: "Qure-d bridges the communication gap between individuals and healthcare providers. It provides an intuitive, empathetic interface to record ongoing symptoms, correlate them with medications, and generate structured health summaries.",
@@ -54,13 +72,30 @@ export const projects = [
     category: "Frontend • Healthcare",
     filterCategory: "Frontend",
     description: "A responsive, modern dental clinic web platform crafted to offer patients a frictionless experience for exploring treatments, viewing doctor profiles, and scheduling appointments.",
-    thumbnail: "/images/brightsmile.jpg",
+    thumbnail: "/images/brightsmile.png",
+    gallery: [
+      {
+        title: "Clinic Web Platform",
+        url: "/images/brightsmile.png",
+        caption: "Live web storefront featuring patient appointment booking, doctor profiles, and emergency dental support"
+      },
+      {
+        title: "Treatment & Services Catalog",
+        url: "/images/brightsmile-services.png",
+        caption: "Transparent dental treatment guides with procedures and pricing breakdown"
+      },
+      {
+        title: "Specialist Doctors & Reviews",
+        url: "/images/brightsmile-doctors.png",
+        caption: "Credentials, clinic schedules, and verified patient reviews"
+      }
+    ],
     featured: false,
     year: "2025",
     metrics: "Responsive Multi-step UI",
     achievement: "",
     technologies: ["React.js", "JavaScript", "Tailwind CSS", "Vite"],
-    liveUrl: "",
+    liveUrl: "https://brightsmilewb.netlify.app/",
     githubUrl: "https://github.com/riddhi-ai",
     caseStudy: {
       overview: "BrightSmile is a patient-centric dental clinic web application designed to modernize traditional clinic websites with smooth appointment scheduling, clear transparent care information, and intuitive location discovery.",

@@ -5,10 +5,10 @@
 @layer base {
   :root {
     --bg-cream: #FAF7F2;
-    --text-charcoal: #1C191F;
-    --accent-lavender: #8664F3;
-    --accent-peach: #FF9E7D;
-    --border-light: #EDE8E1;
+    --text-charcoal: #221D18;
+    --accent-terracotta: #D4633B;
+    --accent-sage: #548463;
+    --border-light: #EBE3D7;
   }
 
   html {
@@ -18,19 +18,19 @@
 
   body {
     background-color: #FAF7F2;
-    color: #1C191F;
+    color: #221D18;
     overflow-x: hidden;
   }
 
   /* Accessible focus indicators */
   :focus-visible {
-    outline: 2px solid #8664F3;
+    outline: 2px solid #D4633B;
     outline-offset: 3px;
     border-radius: 6px;
   }
 }
 
-/* Custom delicate scrollbar */
+/* Custom warm delicate scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -40,38 +40,38 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #DDD5FD;
+  background: #F3BBA7;
   border-radius: 9999px;
   border: 2px solid #FAF7F2;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #A48EF7;
+  background: #D4633B;
 }
 
-/* Subtle dot grid background */
+/* Subtle warm dot grid background */
 .bg-dot-pattern {
-  background-image: radial-gradient(rgba(28, 25, 31, 0.07) 1px, transparent 1px);
+  background-image: radial-gradient(rgba(34, 29, 24, 0.07) 1px, transparent 1px);
   background-size: 24px 24px;
 }
 
-.bg-dot-lavender {
-  background-image: radial-gradient(rgba(134, 100, 243, 0.12) 1.2px, transparent 1.2px);
+.bg-dot-terracotta {
+  background-image: radial-gradient(rgba(212, 99, 59, 0.12) 1.2px, transparent 1.2px);
   background-size: 20px 20px;
 }
 
-/* Glassmorphic card styling */
+/* Tactile warm card styling */
 .glass-card {
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.88);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(237, 232, 225, 0.8);
+  border: 1px solid rgba(235, 227, 215, 0.85);
 }
 
 .glass-pill {
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.75);
   backdrop-filter: blur(8px);
-  border: 1px solid rgba(221, 213, 253, 0.5);
+  border: 1px solid rgba(249, 217, 205, 0.6);
 }
 
 /* Shimmer animation on hover */

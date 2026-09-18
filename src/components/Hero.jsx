@@ -18,17 +18,17 @@ export default function Hero() {
             className="lg:col-span-7 flex flex-col items-start"
           >
             {/* Eyebrow badge */}
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-lavender-50 border border-lavender-200/80 text-lavender-700 text-xs font-bold uppercase tracking-wider mb-6 shadow-sm">
-              <span className="w-2 h-2 rounded-full bg-lavender-500 animate-pulse" />
+            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-terracotta-50 border border-terracotta-200 text-terracotta-800 text-xs font-bold uppercase tracking-wider mb-6 shadow-xs">
+              <span className="w-2 h-2 rounded-full bg-terracotta-500 animate-pulse" />
               <span>WEB DEVELOPER • MCA STUDENT • BUILDER</span>
             </div>
 
             {/* Headline */}
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-charcoal-950 tracking-tight leading-[1.12] mb-6">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold text-charcoal-950 tracking-tight leading-[1.12] mb-6">
               Turning ideas into{' '}
-              <span className="relative inline-block text-transparent bg-clip-text bg-gradient-to-r from-lavender-600 via-lavender-500 to-peach-400">
+              <span className="relative inline-block font-normal italic text-transparent bg-clip-text bg-gradient-to-r from-terracotta-600 via-terracotta-500 to-amber-600">
                 responsive web experiences
-                <span className="absolute -top-1 -right-6 text-2xl animate-bounce">✨</span>
+                <span className="absolute -top-1 -right-6 text-2xl not-italic animate-bounce">✨</span>
               </span>
             </h1>
 
@@ -40,15 +40,15 @@ export default function Hero() {
 
             {/* Personality Microcopy Badges */}
             <div className="flex flex-wrap items-center gap-2.5 mb-9 text-xs font-medium text-charcoal-600">
-              <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/90 border border-cream-300 shadow-sm">
-                <span className="text-lavender-500">✦</span>
+              <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-white border border-cream-300 shadow-sm">
+                <span className="text-terracotta-500">✦</span>
                 <span>Currently: <strong className="text-charcoal-900 font-semibold">turning ideas into interfaces</strong></span>
               </div>
-              <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/90 border border-cream-300 shadow-sm">
-                <Terminal className="w-3 h-3 text-emerald-500" />
+              <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-white border border-cream-300 shadow-sm">
+                <Terminal className="w-3 h-3 text-sage-600" />
                 <span>Status: <strong className="text-charcoal-900 font-semibold">building something...</strong></span>
               </div>
-              <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/90 border border-cream-300 shadow-sm">
+              <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-white border border-cream-300 shadow-sm">
                 <Coffee className="w-3 h-3 text-amber-600" />
                 <span>Mood: <strong className="text-charcoal-900 font-semibold">curious + caffeinated ☕</strong></span>
               </div>
@@ -58,7 +58,7 @@ export default function Hero() {
             <div className="flex flex-wrap items-center gap-4 w-full sm:w-auto">
               <a
                 href="#projects"
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-2xl bg-charcoal-950 hover:bg-lavender-600 text-cream-50 font-bold text-sm transition-all duration-200 shadow-soft hover:shadow-glow-lavender hover:-translate-y-0.5"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-2xl bg-charcoal-950 hover:bg-terracotta-600 text-cream-50 font-bold text-sm transition-all duration-200 shadow-soft hover:shadow-glow-terracotta hover:-translate-y-0.5"
                 data-cursor="EXPLORE"
               >
                 <span>Explore my work</span>
@@ -71,7 +71,7 @@ export default function Hero() {
                 data-cursor="CONNECT"
               >
                 <span>Let's connect</span>
-                <ArrowUpRight className="w-4 h-4 text-lavender-600" />
+                <ArrowUpRight className="w-4 h-4 text-terracotta-600" />
               </a>
 
               {/* Social Links */}
@@ -82,7 +82,7 @@ export default function Hero() {
                   rel="noopener noreferrer"
                   aria-label="GitHub Profile"
                   data-cursor="GITHUB"
-                  className="p-3 rounded-xl bg-white hover:bg-lavender-50 border border-cream-300 text-charcoal-700 hover:text-lavender-600 transition-all hover:scale-110 shadow-sm"
+                  className="p-3 rounded-xl bg-white hover:bg-terracotta-50 border border-cream-300 text-charcoal-700 hover:text-terracotta-600 transition-all hover:scale-110 shadow-sm"
                 >
                   <Github className="w-4 h-4" />
                 </a>
@@ -93,7 +93,7 @@ export default function Hero() {
                   rel="noopener noreferrer"
                   aria-label="LinkedIn Profile"
                   data-cursor="LINKEDIN"
-                  className="p-3 rounded-xl bg-white hover:bg-lavender-50 border border-cream-300 text-charcoal-700 hover:text-lavender-600 transition-all hover:scale-110 shadow-sm"
+                  className="p-3 rounded-xl bg-white hover:bg-terracotta-50 border border-cream-300 text-charcoal-700 hover:text-terracotta-600 transition-all hover:scale-110 shadow-sm"
                 >
                   <Linkedin className="w-4 h-4" />
                 </a>
